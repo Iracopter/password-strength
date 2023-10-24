@@ -1,0 +1,34 @@
+.toolbar{
+    background-color: rgb(224, 220, 220);
+    padding: 20vw;
+  }
+
+  input{
+    height: 2.5vw;
+    width: 15vw;
+    border-radius: 1vw;
+  }
+
+.gray-circle, .red-circle, .yellow-circle, .green-circle {
+  width: 2vw;
+  height: 2vw;
+  background-color: gray;
+  border-radius: 50%;
+  margin: 0.5vw 0vw 0vw 1vw;
+}
+
+.red-circle {
+  background-color: red;
+}
+
+.yellow-circle{
+  background-color: yellow;
+}
+
+.green-circle{
+  background-color: green;
+}
+
+.circles{
+  display: flex;
+}
